@@ -42,7 +42,7 @@ $ docker logs importantapi
 $ docker stop myapiserver
 ```
 
-0) Remove the container from your machine
+9) Remove the container from your machine
 
 ```
 $ docker rm myapiserver
