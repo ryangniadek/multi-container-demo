@@ -30,13 +30,19 @@ $ docker run --name importantapi -d -p 5001:5000 myapiserver
 
 6) Use curl or postman to figure out the passphrase (API is accessible on your host machine over `localhost:5001`)
 
-7) Stop the container
+7) View the logs from outside the container
+
+```
+$ docker logs importantapi
+```
+
+8) Stop the container
 
 ``` 
 $ docker stop myapiserver
 ```
 
-8) Remove the container from your machine
+0) Remove the container from your machine
 
 ```
 $ docker rm myapiserver
